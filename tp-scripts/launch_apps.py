@@ -4,14 +4,11 @@ import sys
 # Your commands go here
 commands = {
     'a': 'echo test works', # test if it works
-    'blen': 'blender',
     'vscode': '/usr/bin/code --new-window',
     'obs': '/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=obs com.obsproject.Studio',
-    'spotify': '/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=spotify --file-forwarding com.spotify.Client',
-    'discord' : '/usr/bin/discord',
-    'teams' : 'teams %U',
-    'minecraft' : '/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=polymc org.polymc.PolyMC',
-    'audacity' : 'audacity'
+    'discord' : '/usr/bin/discord'
+    # to add custom apps use 'name to open app' : 'command that opens app' example 'b' : 'bash'
+    
 }
 
 # Get the command-line argument
